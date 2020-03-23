@@ -1,0 +1,59 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+
+
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+$font-primary: 'Roboto', sans-serif; 
+
+$font-secondary: Arial, Helvetica, sans-serif;
+
+$font-title: 20px;
+$font-subtitle: 17px;
+$font-middle: 14px;
+$font-small: 10px;
+$font-tiny: 7px;
+
+
+/// Copy text color
+/// @type Color
+$text-color: rgb(34, 34, 34) !default;
+
+/// Main brand color
+/// @type Color
+$alarm-color: rgb(214, 78, 69) !default;
+
+/// Light grey
+/// @type Color
+$mid-light-grey: rgb(215,216,217) !default;
+/// @type Color
+$light-grey: rgb(244,243,245) !default;
+
+$light-grey-trans: rgba(215, 216, 217, 0.8) !default;
+/// Medium grey
+/// @type Color
+$mid-grey: rgb(84, 86, 90) !default;
+
+/// Dark grey
+/// @type Color
+$dark-grey: rgb(53, 54, 68) !default;
+
+/// @type Color
+$dark-yello: rgb(228, 198, 99);
+
+/// Main Background Color
+/// @type Color
+$sub-main-color: rgb(237, 241, 242);
+$main-background-color: rgb(245, 246, 249);
+
+$header-height: 95px;

@@ -1,0 +1,39 @@
+.feed_card {
+    padding: 20px 20px;
+    .feed_card_header {
+        padding: 10px 0px;
+        .ic_avatar_cat {
+            width: 36px;
+            height: 36px;
+            object-fit: contain;
+            margin-right: 10px;
+        }
+        .feed_card_nickname {
+            font-size: 15px;
+            font-family: 'AppleSDGothicNeo-Bold';
+            line-height: 19px;
+            color: rgba(0, 0, 0, 0.74);
+        }
+    }
+
+    .feed_card_image_container {
+        position: relative;
+        .feed_card_image {
+            width: 268px;
+            height: 268px;
+            border-radius: 10px;
+            object-fit: fill;
+        }
+        .feed_card_toggle {
+            position: absolute;
+            bottom: 10px;
+            right: 6px;
+            width: 32px;
+            height: 32px;
+            .feed_card_toggle_image {
+                width: 32px;
+                height: 32px;
+            }
+        }
+    }
+}

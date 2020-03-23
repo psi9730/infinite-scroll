@@ -1,0 +1,16 @@
+@mixin extra-small {
+    @media (max-width: 540px) { @content; }
+}
+@mixin small {
+    @media (max-width: 720px) { @content; }
+}
+@mixin medium {
+    @media (max-width: 960px){ @content; }
+}
+@mixin large {
+    @media (min-width: 960px){ @content; }
+}
+
+%boxShadowModal{
+    box-shadow: 0 0 10px;
+}
